@@ -79,6 +79,9 @@ Another method to change the output of your convolutions is to change the stride
 
 Strided convolutions are rarely used in practice but a good feature to be aware of for some models.
 
+### Step sizes of our filter in our image
+### Not super popular/Don't use this
+
 ## Convolutions on RGB images
 
 Instead of 5 x 5 grayscale, let's imagine a 7 x 7 RGB image, which boils down to having a 7 x 7 x 3 tensor. (The image itelf is compromised by a 7 by 7 matrix of pixels, each with 3 numerical values for the RGB values.) From there, you will need to use a filter that has the third dimension equal to 3 as well, let's say, 3 x 3 x 3 (a 3D "cube"). 
